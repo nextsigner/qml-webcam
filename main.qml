@@ -14,7 +14,8 @@ ApplicationWindow {
     x:apps.x
     y:apps.y
     title: 'Qml WebCam - by @nextsigner'
-    flags: Qt.Window | Qt.Tool | Qt.WindowStaysOnTopHint//Qt.FramelessWindowHint | Qt.WindowStaysOnTopHint
+    //flags: Qt.Window | Qt.Tool | Qt.WindowStaysOnTopHint//Qt.FramelessWindowHint | Qt.WindowStaysOnTopHint
+    flags: Qt.Window | Qt.Tool//| Qt.WindowStaysOnTopHint
     onXChanged: apps.x=x
     onYChanged: apps.y=y
     onWidthChanged: apps.aw=width
